@@ -1,0 +1,18 @@
+2025-10-03 19:27:46,135 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-03 19:27:46,136 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 19:27:46,137 - INFO -  * Restarting with stat
+2025-10-03 19:27:52,456 - WARNING -  * Debugger is active!
+2025-10-03 19:27:52,458 - INFO -  * Debugger PIN: 364-272-810
+2025-10-03 19:28:28,530 - INFO - 127.0.0.1 - - [03/Oct/2025 19:28:28] "GET / HTTP/1.1" 200 -
+2025-10-03 19:28:28,618 - INFO - 127.0.0.1 - - [03/Oct/2025 19:28:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-03 19:29:03,929 - INFO - 127.0.0.1 - - [03/Oct/2025 19:29:03] "GET / HTTP/1.1" 200 -
+2025-10-03 19:34:16,581 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-03 19:34:16,581 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 19:34:16,582 - INFO -  * Restarting with stat
+2025-10-03 19:34:23,811 - WARNING -  * Debugger is active!
+2025-10-03 19:34:23,813 - INFO -  * Debugger PIN: 364-272-810
+2025-10-03 19:34:23,858 - INFO - 127.0.0.1 - - [03/Oct/2025 19:34:23] "GET / HTTP/1.1" 200 -
+2025-10-03 19:35:45,095 - INFO -  * Detected change in 'C:\\Users\\MOHAMED HUSSAIN\\Downloads\\CAREER\\Generative AI Engineer\\projects\\AI-Powered-Text-Summarizer\\backend\\test_backend.py', reloading
+2025-10-03 19:35:45,862 - INFO -  * Restarting with stat
