@@ -1,37 +1,37 @@
 from flask import Flask, request, jsonify
 from summarizer import generate_summary
-from preprocess import clean_text
+from preprocess import preprocess_input
+from utils import log_request, format_response, timestamp
 
 app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return jsonify({"message": "AI Summarizer API is running!"})
 
 @app.route("/summarize", methods=["POST"])
 def summarize():
     """
-    API endpoint: accepts JSON with text, returns summarized text.
+    API endpoint: accepts JSON { "text": "your long text" }
+    Returns: JSON { "summary": "short text", "metadata": {...} }
     """
-    data = request.get_json()
-    text = data.get("text", "")
-
-    if not text.strip():
-        return jsonify({"error": "No text provided"}), 400
-
-    # Preprocess before summarizing
-    cleaned_text = clean_text(text)
-
     try:
+        data = request.get_json()
+        if not data or "text" not in data:
+            return jsonify({"error": "Missing 'text' field"}), 400
+
+        raw_text = data["text"]
+        cleaned_text = preprocess_input(raw_text)
         summary = generate_summary(cleaned_text)
-        return jsonify({"summary": summary})
+
+        # log the request/response
+        log_request(raw_text, summary)
+
+        # return structured response
+        return jsonify(format_response(summary, {"timestamp": timestamp()}))
+
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-
-@app.route("/", methods=["GET"])
-def home():
-    """
-    Simple health check endpoint.
-    """
-    return jsonify({"message": "AI Summarizer Backend is running"})
-
 
 if __name__ == "__main__":
     app.run(debug=True)
