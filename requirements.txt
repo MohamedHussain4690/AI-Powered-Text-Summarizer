@@ -1,9 +1,11 @@
 # Web framework
 flask==3.0.0
 
-# Hugging Face transformers for summarization
-transformers==4.44.0
+# Hugging Face transformers (stable, Windows-friendly build)
+transformers==4.30.2
+
+# Torch (CPU only – avoids CUDA/GPU issues)
 torch==2.8.0
 
-# Optional: for preprocessing (can remove if not needed)
+# Optional: preprocessing
 nltk==3.9.1
