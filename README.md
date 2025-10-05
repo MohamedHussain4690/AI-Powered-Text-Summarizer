@@ -5,10 +5,11 @@ Tired of reading long, boring paragraphs? 😩 This tool is your new best friend
 It uses the power of AI to instantly turn massive blocks of text into short, sweet summaries. Perfect for quick revision and understanding the main points in seconds! 🚀
 
 ⭐ Key Features
-Instant Summaries: Get the main ideas from any text in a snap.
-Super Easy to Use: Just copy, paste, and click!
-Student-Friendly: Designed to help you study smarter, not harder.
-Save Tons of Time: Spend less time reading and more time learning.
+1) Instant Summaries: Get the main ideas from any text in a snap.
+2) Super Easy to Use: Just copy, paste, and click!
+3) Student-Friendly: Designed to help you study smarter, not harder.
+4)Save Tons of Time: Spend less time reading and more time learning.
+
 💡 How to Use It
 It's as easy as 1, 2, 3!
 
