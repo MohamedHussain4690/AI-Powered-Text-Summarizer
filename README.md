@@ -1,4 +1,5 @@
-🤖 AI-Powered Text Summarizer 📚
+# 🤖 AI-Powered Text Summarizer 📚
+
 Tired of reading long, boring paragraphs? 😩 This tool is your new best friend! ✨
 
 It uses the power of AI to instantly turn massive blocks of text into short, sweet summaries. Perfect for quick revision and understanding the main points in seconds! 🚀
