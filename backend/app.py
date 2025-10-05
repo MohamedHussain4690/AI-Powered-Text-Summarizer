@@ -2,8 +2,10 @@ from flask import Flask, request, jsonify
 from summarizer import generate_summary
 from preprocess import preprocess_input
 from utils import log_request, format_response, timestamp
-
+from flask_cors import CORS
 app = Flask(__name__)
+
+CORS(app)  # <--- enables CORS for all routes
 
 @app.route("/")
 def home():
@@ -11,27 +13,24 @@ def home():
 
 @app.route("/summarize", methods=["POST"])
 def summarize():
-    """
-    API endpoint: accepts JSON { "text": "your long text" }
-    Returns: JSON { "summary": "short text", "metadata": {...} }
-    """
     try:
         data = request.get_json()
-        if not data or "text" not in data:
-            return jsonify({"error": "Missing 'text' field"}), 400
+        text = data.get("text", "")
+        print("📥 Received text:", text[:200])  # debug input
+        cleaned = preprocess_input(text)
+        print("🧹 Cleaned text:", cleaned[:200])  # debug output
 
-        raw_text = data["text"]
-        cleaned_text = preprocess_input(raw_text)
-        summary = generate_summary(cleaned_text)
+        summary = generate_summary(cleaned)
+        print("🧠 Generated summary:", summary)  # debug summary
 
-        # log the request/response
-        log_request(raw_text, summary)
-
-        # return structured response
-        return jsonify(format_response(summary, {"timestamp": timestamp()}))
+        return jsonify({"summary": summary})
 
     except Exception as e:
+        import traceback
+        print("⚠️ ERROR in summarize():", e)
+        traceback.print_exc()  # <-- will now print full error
         return jsonify({"error": str(e)}), 500
+
 
 if __name__ == "__main__":
     app.run(debug=True)

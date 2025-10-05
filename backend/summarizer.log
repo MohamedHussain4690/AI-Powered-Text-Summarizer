@@ -16,3 +16,157 @@
 2025-10-03 19:34:23,858 - INFO - 127.0.0.1 - - [03/Oct/2025 19:34:23] "GET / HTTP/1.1" 200 -
 2025-10-03 19:35:45,095 - INFO -  * Detected change in 'C:\\Users\\MOHAMED HUSSAIN\\Downloads\\CAREER\\Generative AI Engineer\\projects\\AI-Powered-Text-Summarizer\\backend\\test_backend.py', reloading
 2025-10-03 19:35:45,862 - INFO -  * Restarting with stat
+2025-10-03 19:36:35,260 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-03 19:36:35,260 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 19:36:35,262 - INFO -  * Restarting with stat
+2025-10-03 19:36:41,611 - WARNING -  * Debugger is active!
+2025-10-03 19:36:41,612 - INFO -  * Debugger PIN: 364-272-810
+2025-10-03 19:39:17,034 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-03 19:39:17,034 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 19:39:17,035 - INFO -  * Restarting with stat
+2025-10-03 19:39:24,495 - WARNING -  * Debugger is active!
+2025-10-03 19:39:24,496 - INFO -  * Debugger PIN: 364-272-810
+2025-10-03 19:40:33,021 - INFO - 127.0.0.1 - - [03/Oct/2025 19:40:33] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-03 19:40:33,029 - INFO - 127.0.0.1 - - [03/Oct/2025 19:40:33] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-03 19:40:57,155 - INFO - 127.0.0.1 - - [03/Oct/2025 19:40:57] "GET / HTTP/1.1" 200 -
+2025-10-03 19:41:31,970 - INFO - 127.0.0.1 - - [03/Oct/2025 19:41:31] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-03 19:41:31,974 - INFO - 127.0.0.1 - - [03/Oct/2025 19:41:31] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-03 19:46:31,093 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-03 19:46:31,093 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-03 19:46:31,094 - INFO -  * Restarting with stat
+2025-10-03 19:46:38,223 - WARNING -  * Debugger is active!
+2025-10-03 19:46:38,225 - INFO -  * Debugger PIN: 364-272-810
+2025-10-03 19:46:40,686 - INFO - 127.0.0.1 - - [03/Oct/2025 19:46:40] "GET / HTTP/1.1" 200 -
+2025-10-04 12:31:52,586 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 12:31:52,586 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 12:31:52,588 - INFO -  * Restarting with stat
+2025-10-04 12:31:59,786 - WARNING -  * Debugger is active!
+2025-10-04 12:31:59,787 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 12:32:01,702 - INFO - 127.0.0.1 - - [04/Oct/2025 12:32:01] "GET / HTTP/1.1" 200 -
+2025-10-04 12:32:01,795 - INFO - 127.0.0.1 - - [04/Oct/2025 12:32:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-04 12:38:37,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 12:38:37,451 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 12:38:37,452 - INFO -  * Restarting with stat
+2025-10-04 12:38:43,290 - WARNING -  * Debugger is active!
+2025-10-04 12:38:43,292 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 12:38:45,411 - INFO - 127.0.0.1 - - [04/Oct/2025 12:38:45] "GET / HTTP/1.1" 200 -
+2025-10-04 12:38:53,730 - INFO -  * Detected change in 'C:\\Users\\MOHAMED HUSSAIN\\Downloads\\CAREER\\Generative AI Engineer\\projects\\AI-Powered-Text-Summarizer\\backend\\app.py', reloading
+2025-10-04 12:38:54,424 - INFO -  * Restarting with stat
+2025-10-04 12:39:00,817 - WARNING -  * Debugger is active!
+2025-10-04 12:39:00,819 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 12:40:59,729 - INFO - 127.0.0.1 - - [04/Oct/2025 12:40:59] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 12:40:59,736 - INFO - 127.0.0.1 - - [04/Oct/2025 12:40:59] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-04 12:53:20,762 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 12:53:20,763 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 12:53:20,764 - INFO -  * Restarting with stat
+2025-10-04 12:53:32,193 - WARNING -  * Debugger is active!
+2025-10-04 12:53:32,195 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 12:54:06,025 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-04 14:39:51,840 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 14:39:51,840 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 14:39:51,842 - INFO -  * Restarting with stat
+2025-10-04 14:40:01,222 - WARNING -  * Debugger is active!
+2025-10-04 14:40:01,224 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 17:03:53,005 - INFO - 127.0.0.1 - - [04/Oct/2025 17:03:53] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 17:03:53,011 - INFO - 127.0.0.1 - - [04/Oct/2025 17:03:53] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-04 17:04:21,946 - INFO -  * Detected change in 'C:\\Users\\MOHAMED HUSSAIN\\Downloads\\CAREER\\Generative AI Engineer\\projects\\AI-Powered-Text-Summarizer\\backend\\app.py', reloading
+2025-10-04 17:04:22,822 - INFO -  * Restarting with stat
+2025-10-04 17:04:38,542 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 17:04:38,542 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 17:04:38,544 - INFO -  * Restarting with stat
+2025-10-04 17:04:46,910 - WARNING -  * Debugger is active!
+2025-10-04 17:04:46,912 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 17:04:55,424 - INFO - 127.0.0.1 - - [04/Oct/2025 17:04:55] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 17:05:40,673 - INFO - 127.0.0.1 - - [04/Oct/2025 17:05:40] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 17:21:39,467 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 17:21:39,467 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 17:21:39,470 - INFO -  * Restarting with stat
+2025-10-04 17:21:49,622 - WARNING -  * Debugger is active!
+2025-10-04 17:21:49,625 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 17:21:55,213 - INFO - 127.0.0.1 - - [04/Oct/2025 17:21:55] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 17:21:55,220 - INFO - 127.0.0.1 - - [04/Oct/2025 17:21:55] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-04 17:24:22,336 - INFO - 127.0.0.1 - - [04/Oct/2025 17:24:22] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 17:24:22,342 - INFO - 127.0.0.1 - - [04/Oct/2025 17:24:22] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-04 17:27:39,700 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 17:27:39,700 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 17:27:39,702 - INFO -  * Restarting with stat
+2025-10-04 17:27:47,739 - WARNING -  * Debugger is active!
+2025-10-04 17:27:47,741 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 17:27:56,544 - INFO - 127.0.0.1 - - [04/Oct/2025 17:27:56] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 17:27:56,650 - INFO - 127.0.0.1 - - [04/Oct/2025 17:27:56] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-04 17:28:49,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 17:28:49,904 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 17:28:49,906 - INFO -  * Restarting with stat
+2025-10-04 17:28:57,711 - WARNING -  * Debugger is active!
+2025-10-04 17:28:57,713 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 17:29:00,928 - INFO - 127.0.0.1 - - [04/Oct/2025 17:29:00] "OPTIONS / HTTP/1.1" 200 -
+2025-10-04 17:29:00,932 - INFO - 127.0.0.1 - - [04/Oct/2025 17:29:00] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-10-04 17:30:45,569 - INFO - 127.0.0.1 - - [04/Oct/2025 17:30:45] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 17:30:45,586 - INFO - 127.0.0.1 - - [04/Oct/2025 17:30:45] "[35m[1mPOST /summarize HTTP/1.1[0m" 500 -
+2025-10-04 17:35:18,548 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-04 17:35:18,548 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-04 17:35:18,549 - INFO -  * Restarting with stat
+2025-10-04 17:35:26,943 - WARNING -  * Debugger is active!
+2025-10-04 17:35:26,945 - INFO -  * Debugger PIN: 120-358-003
+2025-10-04 17:35:35,573 - INFO - 127.0.0.1 - - [04/Oct/2025 17:35:35] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-04 17:35:37,838 - INFO - 127.0.0.1 - - [04/Oct/2025 17:35:37] "POST /summarize HTTP/1.1" 200 -
+2025-10-05 14:07:40,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-05 14:07:40,517 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-05 14:07:40,519 - INFO -  * Restarting with stat
+2025-10-05 14:07:50,477 - WARNING -  * Debugger is active!
+2025-10-05 14:07:50,481 - INFO -  * Debugger PIN: 364-272-810
+2025-10-05 14:08:13,305 - INFO - 127.0.0.1 - - [05/Oct/2025 14:08:13] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-05 14:08:16,555 - INFO - 127.0.0.1 - - [05/Oct/2025 14:08:16] "POST /summarize HTTP/1.1" 200 -
+2025-10-05 14:14:23,107 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-05 14:14:23,107 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-05 14:14:23,110 - INFO -  * Restarting with stat
+2025-10-05 14:14:33,401 - WARNING -  * Debugger is active!
+2025-10-05 14:14:33,403 - INFO -  * Debugger PIN: 364-272-810
+2025-10-05 14:14:44,105 - INFO - 127.0.0.1 - - [05/Oct/2025 14:14:44] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-05 14:14:46,757 - INFO - 127.0.0.1 - - [05/Oct/2025 14:14:46] "POST /summarize HTTP/1.1" 200 -
+2025-10-05 14:15:43,830 - INFO - 127.0.0.1 - - [05/Oct/2025 14:15:43] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-05 14:15:47,411 - INFO - 127.0.0.1 - - [05/Oct/2025 14:15:47] "POST /summarize HTTP/1.1" 200 -
+2025-10-05 14:19:42,274 - INFO -  * Detected change in 'C:\\Users\\MOHAMED HUSSAIN\\Downloads\\CAREER\\Generative AI Engineer\\projects\\AI-Powered-Text-Summarizer\\backend\\summarizer.py', reloading
+2025-10-05 14:19:43,177 - INFO -  * Restarting with stat
+2025-10-05 14:20:00,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-05 14:20:00,932 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-05 14:20:00,934 - INFO -  * Restarting with stat
+2025-10-05 14:20:10,685 - WARNING -  * Debugger is active!
+2025-10-05 14:20:10,686 - INFO -  * Debugger PIN: 364-272-810
+2025-10-05 14:20:16,468 - INFO - 127.0.0.1 - - [05/Oct/2025 14:20:16] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-05 14:20:21,598 - INFO - 127.0.0.1 - - [05/Oct/2025 14:20:21] "POST /summarize HTTP/1.1" 200 -
+2025-10-05 14:21:00,052 - INFO - 127.0.0.1 - - [05/Oct/2025 14:21:00] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-05 14:21:03,629 - INFO - 127.0.0.1 - - [05/Oct/2025 14:21:03] "POST /summarize HTTP/1.1" 200 -
+2025-10-05 14:27:27,661 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-05 14:27:27,662 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-05 14:27:27,664 - INFO -  * Restarting with stat
+2025-10-05 14:27:36,424 - WARNING -  * Debugger is active!
+2025-10-05 14:27:36,429 - INFO -  * Debugger PIN: 364-272-810
+2025-10-05 14:27:49,800 - INFO - 127.0.0.1 - - [05/Oct/2025 14:27:49] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-05 14:27:54,119 - INFO - 127.0.0.1 - - [05/Oct/2025 14:27:54] "POST /summarize HTTP/1.1" 200 -
+2025-10-05 14:43:07,028 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-05 14:43:07,028 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-05 14:43:07,029 - INFO -  * Restarting with stat
+2025-10-05 14:43:16,698 - WARNING -  * Debugger is active!
+2025-10-05 14:43:16,700 - INFO -  * Debugger PIN: 364-272-810
+2025-10-05 14:50:49,775 - INFO - 127.0.0.1 - - [05/Oct/2025 14:50:49] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-05 14:50:52,147 - INFO - 127.0.0.1 - - [05/Oct/2025 14:50:52] "POST /summarize HTTP/1.1" 200 -
+2025-10-05 14:52:47,965 - INFO - 127.0.0.1 - - [05/Oct/2025 14:52:47] "OPTIONS /summarize HTTP/1.1" 200 -
+2025-10-05 14:52:52,481 - INFO - 127.0.0.1 - - [05/Oct/2025 14:52:52] "POST /summarize HTTP/1.1" 200 -
