@@ -26,8 +26,8 @@ def generate_summary(text: str) -> str:
 
         for chunk in chunks:
             num_words = len(chunk.split())
-            max_length = min(250, int(num_words * 0.6))
-            min_length = max(40, int(num_words * 0.25))
+            max_length = min(500, int(num_words * 0.6))
+            min_length = max(70, int(num_words * 0.25))
 
             result = summarizer_pipeline(
                 chunk,
