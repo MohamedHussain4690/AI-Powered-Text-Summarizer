@@ -17,7 +17,6 @@ def test_summary(text: str):
         print(f"Request failed: {e}")
 
 if __name__ == "__main__":
-    # Example tests
     samples = [
         "Artificial intelligence is transforming industries by automating tasks, "
         "providing insights, and enabling new ways of working. From healthcare to "

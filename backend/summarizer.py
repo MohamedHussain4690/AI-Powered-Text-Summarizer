@@ -1,12 +1,8 @@
-# backend/summarizer.py
 from transformers import pipeline
-
-# Load a fast and balanced summarization model
 summarizer_pipeline = pipeline(
     "summarization",
     model="sshleifer/distilbart-cnn-12-6"
 )
-
 def chunk_text(text: str, max_words: int = 400):
     """
     Split long text into smaller chunks for summarization.
@@ -14,7 +10,6 @@ def chunk_text(text: str, max_words: int = 400):
     words = text.split()
     for i in range(0, len(words), max_words):
         yield " ".join(words[i:i + max_words])
-
 
 def generate_summary(text: str) -> str:
     """
@@ -29,7 +24,6 @@ def generate_summary(text: str) -> str:
         chunks = list(chunk_text(text))
         partial_summaries = []
 
-        # Summarize each chunk
         for chunk in chunks:
             num_words = len(chunk.split())
             max_length = min(250, int(num_words * 0.6))
@@ -43,11 +37,7 @@ def generate_summary(text: str) -> str:
                 truncation=True
             )
             partial_summaries.append(result[0]['summary_text'].strip())
-
-        # Combine all partial summaries into a single coherent text
         combined_summary = " ".join(partial_summaries)
-
-        # 🔁 Final summarization pass to compress the combined text
         if len(combined_summary.split()) > 300:
             final = summarizer_pipeline(
                 combined_summary,
@@ -57,8 +47,6 @@ def generate_summary(text: str) -> str:
                 truncation=True
             )
             combined_summary = final[0]['summary_text'].strip()
-
-        # Ensure clean ending
         if not combined_summary.endswith(('.', '!', '?')):
             combined_summary += '.'
 

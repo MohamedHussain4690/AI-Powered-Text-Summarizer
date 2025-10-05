@@ -1,11 +1,10 @@
 from flask import Flask, request, jsonify
 from summarizer import generate_summary
 from preprocess import preprocess_input
-from utils import log_request, format_response, timestamp
 from flask_cors import CORS
 app = Flask(__name__)
 
-CORS(app)  # <--- enables CORS for all routes
+CORS(app) 
 
 @app.route("/")
 def home():
@@ -16,19 +15,19 @@ def summarize():
     try:
         data = request.get_json()
         text = data.get("text", "")
-        print("📥 Received text:", text[:200])  # debug input
+        print("📥 Received text:", text[:200]) 
         cleaned = preprocess_input(text)
-        print("🧹 Cleaned text:", cleaned[:200])  # debug output
+        print("🧹 Cleaned text:", cleaned[:200])  
 
         summary = generate_summary(cleaned)
-        print("🧠 Generated summary:", summary)  # debug summary
+        print("🧠 Generated summary:", summary)  
 
         return jsonify({"summary": summary})
 
     except Exception as e:
         import traceback
         print("⚠️ ERROR in summarize():", e)
-        traceback.print_exc()  # <-- will now print full error
+        traceback.print_exc() 
         return jsonify({"error": str(e)}), 500
 
 
